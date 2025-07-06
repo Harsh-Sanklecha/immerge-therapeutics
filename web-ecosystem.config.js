@@ -4,7 +4,7 @@ module.exports = {
       name: 'verity-web',
       script: 'npm',
       args: 'start',
-      cwd: '/immerge-therapeutics/',
+      cwd: 'immerge-therapeutics/',
       instances: 1,
       autorestart: true,
       watch: false,
