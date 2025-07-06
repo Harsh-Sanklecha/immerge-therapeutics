@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-gradient {
+  background-image: linear-gradient(
+    90deg,
+    hsla(221, 99%, 50%, 1) 0%, 
+    hsla(189, 100%, 50%, 1) 100%
+  );
+  background-size: 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-border {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gradient-border:hover {
+  border: 2px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-image-slice: 1;
+  box-sizing: border-box;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%, 
+    hsla(221, 99%, 50%, 1) 100% 
+  ) border-box;
+  box-shadow: 0 0 1px;
+}
+
+.slide-container {
+  scrollbar-width: none; /* Hide the default scrollbar */
+  -ms-overflow-style: none; /* Hide the default scrollbar in IE and Edge */
+}
+
+/* .gradient-border:hover {
+  border: 2px solid transparent;
+  border-radius: 12px;
+
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-image-slice: 1;
+  box-sizing: border-box;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(180deg, #A6E77D 0%, #0151FE 100%) border-box;
+  box-shadow: 0 0 1px;
+} */
+
+.shadow-gradient {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.shadow-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 35px;
+  transform: translate3d(-2px, 4px, -1px); /* (X, Y, Z) */
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%, 
+    hsla(221, 99%, 50%, 1) 100% 
+  );
+  filter: blur(32px);
+  border-radius: 9999px;
+}
+
+.shadow-gradient-cta {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.shadow-gradient-cta::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  transform: translate3d(-2px, 4px, -1px); /* (X, Y, Z) */
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%, 
+    hsla(221, 99%, 50%, 1) 100% 
+  );
+  filter: blur(32px);
+  border-radius: 9999px;
+}
+
+.shadow-gradient-video {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.shadow-gradient-video::before {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  transform: translate3d(-2px, 4px, -1px); /* (X, Y, Z) */
+  background: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%, 
+    hsla(221, 99%, 50%, 1) 100% 
+  );
+  filter: blur(20px);
+}
+
+.border-gradient {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+      90deg,
+      hsla(189, 100%, 50%, 1) 0%, 
+      hsla(221, 99%, 50%, 1) 100% 
+    )
+      border-box;
+  border: 1px solid transparent;
+}
+
+.gradient-div:hover {
+  background-image: linear-gradient(
+    90deg,
+    hsla(189, 100%, 50%, 1) 0%, 
+    hsla(221, 99%, 50%, 1) 100% 
+  );
+}
+
+
+@media (max-width: 768px) {
+  .shadow-gradient-video::before {
+    display: none;
+  }
+}
+
+/* Cross-browser solution to hide scrollbars */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, and Opera */
+}
