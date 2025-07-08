@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="grid gap-6 md:gap-0 grid-cols-2 md:grid-cols-3 ">
           <FooterNavMenu>
             <FooterNavMenu.Item href="/about" name="About" />
-            <FooterNavMenu.Item href="/why-verity" name="Why Verity" />
+            <FooterNavMenu.Item href="/why-verity" name="Why us" />
             <FooterNavMenu.Item href="/case-studies/1" name="Case Study" />
             {/* <FooterNavMenu.Item href="/blogs" name="Blog" /> */}
             <FooterNavMenu.Item href="/faq" name="FAQ" />
