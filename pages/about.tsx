@@ -8,6 +8,8 @@ import Typography from "@/components/ui/typography";
 import { loadData } from "@/lib/api";
 import { About } from "@/types/api/pages/About";
 import Head from "next/head";
+import Image from "next/image";
+import StartupIndiaCertificate from "@/public/startup-india-certificate.png";
 
 const AboutPage = ({ aboutPageData }: { aboutPageData: About | null }) => {
   if (aboutPageData === null)
@@ -26,7 +28,24 @@ const AboutPage = ({ aboutPageData }: { aboutPageData: About | null }) => {
       <TheTech data={aboutPageData} />
       <Physiotherapy data={aboutPageData.sessions} />
       <TeamMembers data={aboutPageData.our_experts} />
-      {/* <Socials data={aboutPageData.socials} /> */}
+      <div className="p-3 md:p-8">
+      <Typography
+        variant="h1"
+        component="h1"
+        className="md:text-[40px] md:leading-[50.4px] text-center mb-10 text-[28px]"
+      >
+        Recognized by
+        <br className="hidden lg:block" />
+        <span className="bg-gradient-to-br from-[#0151FE] via-[#3474fe] to-[#3D3D3D] bg-clip-text text-transparent">
+          Startup India
+        </span>
+      </Typography>
+      <Image
+        src={StartupIndiaCertificate}
+        alt={"Startup India Certificate"}
+        className="h-auto max-h-[800px] w-full object-contain mx-auto"
+        />
+        </div>
       <BookDemo />
     </Container>
     </>
