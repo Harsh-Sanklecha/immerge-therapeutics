@@ -39,7 +39,7 @@ const TrustedAndRecommended: React.FC<TrustedProps> = ({
                     // style={{objectFit:"cover"}}
                     width={170}
                     height={35}
-                    className=" grayscale max-h-[70px] max-w-[248px] items-center object-contain"
+                    className=" max-h-[70px] max-w-[248px] items-center object-contain"
                   />
                 }
               </div>
