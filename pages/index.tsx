@@ -57,7 +57,7 @@ export default function Home({
           data={homePageData.case_studies}
           caseStudies={post}
         /> */}
-      <section className="w-[90vw] md:w-[85vw] mx-auto items-center flex flex-col justify-center pt-[48px] md:pt-[140px]">
+      {/* <section className="w-[90vw] md:w-[85vw] mx-auto items-center flex flex-col justify-center pt-[48px] md:pt-[140px]">
         <Typography
           variant="h1"
           className="text-center text-[24px] md:text-[40px] max-w-[300px]  md:max-w-[625px]"
@@ -75,7 +75,7 @@ export default function Home({
             }
           ))} />
         </div>
-      </section>
+      </section> */}
       <section className="px-6 md:px-[120px] pt-20 md:pt-[116px] mb-[64px] md:mb-[160px]">
         <FAQs data={homePageData.faqs} />
       </section>
