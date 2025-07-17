@@ -16,23 +16,24 @@ const Testimonials = ({ data }: { data: TestimonialsWithVideo }) => {
     }
   ));
   return (
-    <div className="w-[90vw] md:w-[85vw] mx-auto items-center flex flex-col justify-center pt-[48px] md:pt-[140px]">
-      <Typography className="text-gradient font-[800]">
-        {data.heading}
-      </Typography>
-      <Typography
-        variant="h1"
-        className="text-center text-[24px] md:text-[40px] max-w-[300px]  md:max-w-[625px]"
-      >
-        {data.subheading}{" "}
-      </Typography>
+    <></>
+    // <div className="w-[90vw] md:w-[85vw] mx-auto items-center flex flex-col justify-center pt-[48px] md:pt-[140px]">
+    //   <Typography className="text-gradient font-[800]">
+    //     {data.heading}
+    //   </Typography>
+    //   <Typography
+    //     variant="h1"
+    //     className="text-center text-[24px] md:text-[40px] max-w-[300px]  md:max-w-[625px]"
+    //   >
+    //     {data.subheading}{" "}
+    //   </Typography>
 
-      <div className="mt-[49px] mb-[70px]  md:mb-[140px]">
-        {/* <Carousel slides={slides} /> */}
-        {/* <TextCarousels slides={slides} /> */}
-        <VideoCarouselCaseStudy slides={slides} className="" />
-      </div>
-    </div>
+    //   <div className="mt-[49px] mb-[70px]  md:mb-[140px]">
+    //     {/* <Carousel slides={slides} /> */}
+    //     {/* <TextCarousels slides={slides} /> */}
+    //     <VideoCarouselCaseStudy slides={slides} className="" />
+    //   </div>
+    // </div>
   );
 };
 

@@ -68,7 +68,6 @@ const DetailsTestimonial = ({
       </Typography>
       <div className="grow">
         {/* <Carousel slides={slides} className="md:w-[calc(720px+4vw)]" /> */}
-        <VideoCarouselCaseStudy slides={slides} className="md:w-[calc(720px+12vw)]" />
       </div>
       <div></div>
     </div>

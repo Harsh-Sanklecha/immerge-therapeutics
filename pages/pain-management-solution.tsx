@@ -59,7 +59,7 @@ const OurExperts = ({
           >
             {ourExpertsData.testimonials_video.subheading}{" "}
           </Typography>
-          <div className="mt-[49px] mb-[70px]  md:mb-[140px]">
+          {/* <div className="mt-[49px] mb-[70px]  md:mb-[140px]">
             <VideoCarouselCaseStudy
               slides={Object.values(
                 ourExpertsData.testimonials_video.testimonial
@@ -74,7 +74,7 @@ const OurExperts = ({
                 video_type: testimonial.video_type,
               }))}
             />
-          </div>
+          </div> */}
         </section>
         <section className="pb-[50px]">
           <BookDemo />
