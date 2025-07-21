@@ -91,6 +91,11 @@ const HeroSection = ({ data }: { data: WhyVerity }) => {
           {data.video_type === "file" ? (
             <Video
               autoPlay={true}
+              loop={true}
+              muted={true}
+              controls={false}
+              playsInline
+              preload="auto"
               src={data.video || ""}
               className="mt-[104px] relative bottom-[14px] md:bottom-0 md:mt-[50px] "
             />
