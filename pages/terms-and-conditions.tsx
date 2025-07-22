@@ -25,16 +25,16 @@ export default function TermsAndConditions() {
           {/* <p className="my-4">
             These terms and conditions outline the rules and regulations for the
             use of Immerge Therapeutics&apos;s Website, located at{" "}
-            <a href="https://www.verityxr.co.in" className="text-blue-500">
-              https://www.verityxr.co.in/about-us/
+            <a href="https://www.immerge.co.in" className="text-blue-500">
+              https://www.immerge.co.in/about-us/
             </a>
             .
           </p> */}
           <p className="my-4">
             These Terms and Conditions govern Your use of our website,
             accessible at{" "}
-            <a href="https://www.verityxr.co.in" className="text-blue-500">
-              https://www.verityxr.co.in/about-us/
+            <a href="https://www.immerge.co.in" className="text-blue-500">
+              https://www.immerge.co.in/about-us/
             </a>
             .
           </p>

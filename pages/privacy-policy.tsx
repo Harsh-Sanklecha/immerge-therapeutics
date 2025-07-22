@@ -20,8 +20,8 @@ const PrivacyPolicy = () => {
         <p>
           This Privacy Policy explains how we collect, use, and disclose your
           personal information when you visit our website, accessible at{" "}
-          <a href="https://www.verityxr.co.in" className="text-blue-500">
-            https://www.verityxr.co.in/about-us/
+          <a href="https://www.immerge.co.in" className="text-blue-500">
+            https://www.immerge.co.in/about-us/
           </a>
           .
         </p>
@@ -121,8 +121,8 @@ const PrivacyPolicy = () => {
         </li>
         <li className="mb-2">
           <strong>Website</strong> refers to Immerge Therapeutics, accessible from
-          <a href="https://www.verityxr.co.in/" className="text-blue-500">
-            https://www.verityxr.co.in/
+          <a href="https://www.immerge.co.in/" className="text-blue-500">
+            https://www.immerge.co.in/
           </a>
         </li>
         <li className="mb-2">
@@ -502,7 +502,7 @@ const PrivacyPolicy = () => {
         </li>
         <li className="mb-2">
           By visiting this page on our website:{" "}
-          <a href="https://www.verityxr.co.in/">https://www.verityxr.co.in/</a>
+          <a href="https://www.immerge.co.in/">https://www.immerge.co.in/</a>
         </li>
       </ul> */}
       </section>
