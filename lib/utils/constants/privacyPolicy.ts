@@ -53,14 +53,14 @@ export const privacyPolicy = [
       },
     ],
     conclusoryStatement:
-      "To exercise these rights, please contact us at ask@verityxr.co.in. We will respond to your request within a reasonable timeframe.",
+      "To exercise these rights, please contact us at ask@immerge.co.in. We will respond to your request within a reasonable timeframe.",
   },
   {
     heading: "DATA PROTECTION ",
     content: [
       {
         content:
-          "We oversee our data protection strategy and ensure compliance with data protection laws by monitoring compliance, providing advice on data protection impact assessments, and acting as a point of contact for data subjects and the relevant data protection authorities. If you have any questions, concerns, or requests regarding your personal information or this Privacy Policy, you may contact us at: ask@verityxr.co.in",
+          "We oversee our data protection strategy and ensure compliance with data protection laws by monitoring compliance, providing advice on data protection impact assessments, and acting as a point of contact for data subjects and the relevant data protection authorities. If you have any questions, concerns, or requests regarding your personal information or this Privacy Policy, you may contact us at: ask@immerge.co.in",
       },
     ],
   },
@@ -72,6 +72,6 @@ export const privacyPolicy = [
   {
     heading: "  CONTACT US",
     content:
-      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: ask@verityxr.co.in",
+      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: ask@immerge.co.in",
   },
 ];

@@ -498,7 +498,7 @@ const PrivacyPolicy = () => {
       <ul className="list-disc list-inside mb-4">
         <li className="mb-2">
           By email:{" "}
-          <a href="mailto:ask@verityxr.co.in">ask@verityxr.co.in</a>
+          <a href="mailto:ask@immerge.co.in">ask@immerge.co.in</a>
         </li>
         <li className="mb-2">
           By visiting this page on our website:{" "}

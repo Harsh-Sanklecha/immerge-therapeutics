@@ -110,6 +110,6 @@ export const termsAndConditions = [
   {
     heading: "CONTACT US ",
     content:
-      "If You have any questions or concerns about these Terms and Conditions, please contact us at ask@verityxr.co.in",
+      "If You have any questions or concerns about these Terms and Conditions, please contact us at ask@immerge.co.in",
   },
 ];
